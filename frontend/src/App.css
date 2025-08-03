@@ -1,0 +1,33 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.App-logo {
+  height: 150px;
+  margin-bottom: 1rem;
+  animation: spin infinite 20s linear;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+}
