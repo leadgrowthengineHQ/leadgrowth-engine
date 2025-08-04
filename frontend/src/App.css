@@ -31,3 +31,46 @@
 .App-link:hover {
   text-decoration: underline;
 }
+.lead-form {
+  background: #f5f5f5;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.lead-form h2 {
+  margin-bottom: 15px;
+}
+
+.lead-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.lead-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.lead-form button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.lead-form button:hover {
+  background-color: #61dafb;
+  color: black;
+}
